@@ -20,7 +20,7 @@
 <body>
 <main>
 <h1>MS Alet Çantası — Gizlilik Politikası</h1>
-<p class="muted">Son güncelleme: 24 Kasım 2026 · Geliştirici: MS-sirius · Paket: com.mssirius.toolbox</p>
+<p class="muted">Son güncelleme: 26 Kasım 2026 · Geliştirici: MS-sirius · Paket: com.mssirius.toolbox</p>
 
 <section class="lang">
 <h2>Kısaca</h2>
@@ -34,12 +34,24 @@
     hangi aracın kaç kez açıldığı ve açılışların uygulama sürümüne, uygulama diline, platforma (Android ya da iOS, telefon ya da
     tablet) ve ülkeye göre dağılımı. Ülke telefonunun bölge ayarından alınır; konum kullanılmaz. Bu sayılar seni, cihazını ya da
     konumunu tanımlamaz.</li>
+  <li>Ana ekrandaki güneş sistemi ve hava durumu için konum <b>isteğe bağlıdır</b>. İzin verirsen konumun yaklaşık 1 km'ye
+    yuvarlanıp yalnız telefonunda tutulur; hava tahmini için bu yaklaşık konum hava durumu hizmet sağlayıcısına gönderilir (adın,
+    hesabın ya da cihaz kimliğin gönderilmez). Gezegenlerin konumları telefonda, internetsiz hesaplanır. Ana ekran widget'ını
+    eklersen widget aynı yaklaşık konumla hava tahminini kendisi yeniler ve yer adını göstermek için bu yaklaşık konumu telefonunun
+    konum hizmetine sorar; widget konum izni istemez, konumunu kendisi almaz.</li>
   <li>Uygulama çökerse hatayı düzeltebilmemiz için <b>isimsiz çökme raporu</b> gönderilir (aşağıda).</li>
-  <li>Reklam ve reklam kimliği yoktur. Kişisel veri satılmaz, reklam için paylaşılmaz.</li>
+  <li>Uygulama açılırken <b>kendi reklamımız</b> gösterilebilir. Bunun için kişisel veri ya da reklam kimliği kullanılmaz; reklam
+    başına yalnız isimsiz günlük gösterim ve dokunma sayısı tutulur. Kişisel veri satılmaz, reklam için paylaşılmaz.</li>
+  <li>Açılışta <b>Google'ın reklamı</b> da gösterilebilir. Google bunun için reklam kimliğini ve cihaz bilgisini kendi politikasına
+    göre kullanabilir. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de önce iznin sorulur; Hakkında › Reklam tercihleri'nden
+    değiştirebilirsin. iPhone'da izleme izni ayrıca sorulur; vermesen de araçların hepsi çalışır. Reklamsız'da Google reklamı yoktur.</li>
+  <li><b>Reklamsız</b>'ı satın alırsan ödeme Google Play (iPhone'da App Store) üzerinden yapılır; kart bilgin bize gelmez.
+    Satın almayı doğrulamak için hesabın ve sipariş numarası sunucuda saklanır (iade denetimi ve satın alımı geri yüklemek için).
+    Hesabını silersen Reklamsız hakkın silinir; satın alma kaydı iade denetimi için saklanmaya devam eder.</li>
 </ul>
 
 <h2>İzinler ve neden istendikleri</h2>
-<p>İzinler yalnız ilgili aracı açtığında istenir; vermezsen yalnız o araç çalışmaz.</p>
+<p>İzinler yalnız ilgili aracı açtığında (konum için ana ekranda konumu kullanmak istediğinde de) istenir; vermezsen yalnız o özellik çalışmaz.</p>
 <table>
   <tr><th>İzin</th><th>Kullanan araç</th><th>Ne için</th></tr>
   <tr><td>Mikrofon</td><td>Desibel Ölçer, Frekans Ölçer, Akort</td><td>Ortamdaki ses düzeyini, baskın frekansı ve çalınan notayı anlık hesaplamak. Ses kaydedilmez.</td></tr>
@@ -47,6 +59,7 @@
   <tr><td>Fotoğraf seçme</td><td>QR &amp; Barkod</td><td>Galeriden seçtiğin tek bir resimdeki kodu okumak. Resim yalnız okunur; kopyalanmaz, gönderilmez.</td></tr>
   <tr><td>Bildirimler</td><td>Zamanlayıcı</td><td>Süre bittiğinde uygulama kapalıyken de uyarmak ve kalan süreyi göstermek.</td></tr>
   <tr><td>Konum</td><td>GPS Hız &amp; Konum, Kıble Pusulası</td><td>Hızı, rakımı ve koordinatı ekranda göstermek; kıble yönünü ve uzaklığını hesaplamak. Konum kaydedilmez, paylaşılmaz; uygulama kapalıyken kullanılmaz.</td></tr>
+  <tr><td>Yaklaşık konum</td><td>Ana ekran: güneş sistemi ve hava durumu</td><td>Bu gece hangi gezegenin görüleceğini, doğuş ve batış saatlerini hesaplamak; hava tahminini almak. Konum yaklaşık 1 km'ye yuvarlanıp yalnız telefonunda tutulur; hava tahmini için hava durumu hizmet sağlayıcısına gönderilir. Uygulama kapalıyken konum alınmaz.</td></tr>
   <tr><td>Fiziksel etkinlik</td><td>Adım Sayar</td><td>Adım sayısını göstermek. Sayım yalnız araç açıkken yapılır ve saklanmaz.</td></tr>
 </table>
 <p>Pusula, su terazisi, ışık ölçer gibi diğer araçlar telefonun sensörlerini izin gerektirmeden, yalnız ekran açıkken okur.</p>
@@ -64,7 +77,7 @@
   aşağıdaki e-posta adresine "hesap silme" konulu yazman yeterli; 30 gün içinde silinir.</p>
 
 <h2>Telefonunda saklananlar</h2>
-<p>Senin yaptığın ayarlar (kalibrasyonlar, favori araçların, dil, sayaçtaki sayı, malzeme hesabı değerleri), Kaydet'e bastığın
+<p>Senin yaptığın ayarlar (kalibrasyonlar, favori araçların, dil, açılış ekranı, sayaçtaki sayı, malzeme hesabı değerleri), yaklaşık konumun ve son hava tahmini, Kaydet'e bastığın
   ölçümler (konum ölçümü dahil), okuttuğun QR kodlarının geçmişi ve kaydettiğin renkler <b>yalnız telefonunda</b> saklanır;
   istediğinde uygulama içinden silebilirsin. Giriş yaptıysan yalnız favoriler ve kalibrasyonlar hesabına da yazılır.
   Uygulamayı kaldırınca telefondakiler silinir.</p>
@@ -78,6 +91,12 @@
 <p>Giriş, hesaptaki favoriler ve kalibrasyonlar, mesajlar, isimsiz kullanım sayıları ve çökme raporları <b>Google'ın bulut hizmetlerinde</b>
   saklanır; hesap verileri Avrupa Birliği'ndeki
   sunucularda saklanır; veriler aktarım sırasında şifrelenir. Google ile giriş Google'ın kendi gizlilik politikasına tabidir.
+  Hava tahmini için yaklaşık konum (yaklaşık 1 km) <b>Norveç Meteoroloji Enstitüsü'nün</b> açık hava durumu hizmetine (Norveç,
+  Avrupa Ekonomik Alanı) gönderilir; istekte adın, hesabın ya da cihaz kimliğin bulunmaz. Kurumun kendi gizlilik koşulları geçerlidir.
+  Widget'taki yer adı için yaklaşık konum telefonunun konum hizmetine (Android'de Google) sorulur.
+  Reklamsız satın alımı, mağazanın (Google Play / App Store) kendi doğrulamasıyla bulut hizmet sağlayıcımızın sunucularında
+  doğrulanır; aktarım sırasında şifrelenir.
+  Google reklamları Google tarafından gösterilir; Google'ın reklam ve gizlilik politikası geçerlidir.
   Uygulamayı Google Play'den indirdiğinde ve güncellediğinde de Google'ın politikası geçerlidir.</p>
 
 <h2>Çocuklar</h2>
@@ -98,8 +117,17 @@
     None of it is sent to us or anyone else. No camera images, photos or audio are saved. If you tap <b>Save</b> on a measurement, that value is kept
     only on your phone, in "My measurements".</li>
   <li>To see how much the app is used, <b>anonymous daily usage counts</b> are kept: how often the app and each tool were opened, broken down by app version, app language, platform (Android or iOS, phone or tablet) and country. The country comes from your phone's region setting; location is not used. These counts do not identify you, your device or your location.</li>
+  <li>Location for the solar system and weather on the home screen is <b>optional</b>. If you allow it, your location is rounded to about 1 km and kept only on your phone; for the forecast this approximate location is sent to the weather service provider (without your name, account or device ID). Planet positions are calculated on your phone, offline. If you add the home screen widget, it refreshes the forecast itself with the same approximate location and asks your phone's location service for the place name; the widget does not ask for location permission and does not get your location itself.</li>
   <li>If the app crashes, an <b>anonymous crash report</b> is sent so we can fix the error (see below).</li>
-  <li>No ads, no advertising ID. Personal data is not sold or shared for advertising.</li>
+  <li><b>Our own ad</b> may be shown when the app opens. No personal data or advertising ID is used for it; only anonymous
+    daily view and tap counts per ad are kept. Personal data is not sold or shared for advertising.</li>
+  <li><b>A Google ad</b> may also be shown when the app opens. For this, Google may use the advertising ID and device
+    information under its own policy. In the European Economic Area, the UK and Switzerland your consent is asked first; you
+    can change it in About › Ad preferences. On iPhone, tracking permission is asked separately; all tools work even if you
+    don't allow it. With Ad-free there are no Google ads.</li>
+  <li>If you buy <b>Ad-free</b>, payment is made through Google Play (App Store on iPhone); your card details never reach us.
+    To verify the purchase, your account and the order number are kept on the server (to check refunds and to restore the
+    purchase). If you delete your account, Ad-free is removed; the purchase record is kept for refund checks.</li>
 </ul>
 <h2>Permissions</h2>
 <ul>
@@ -108,6 +136,7 @@
   <li><b>Photo picker</b> — QR &amp; Barcode: reading the code in a single image you pick. The image is only read; it is not copied or sent.</li>
   <li><b>Notifications</b> — Timer: alerting you when time is up, even if the app is closed, and showing the remaining time.</li>
   <li><b>Location</b> — GPS Speed &amp; Position, Qibla Compass: speed, altitude and coordinates on screen; Qibla direction and distance. Not stored or shared; not used in the background.</li>
+  <li><b>Approximate location</b> — Home screen solar system and weather: which planets are visible tonight, rise and set times, and the weather forecast. Rounded to about 1 km and kept only on your phone; sent to the weather service provider for the forecast. Not used in the background.</li>
   <li><b>Physical activity</b> — Step Counter: step count while the tool is open. Not stored.</li>
 </ul>
 <p>Permissions are requested only when you open the related tool. Other tools read the phone's sensors without permissions, only while on screen.</p>
@@ -116,11 +145,11 @@
   so we can show them on every device and answer you. Only you and the developer can see them. While signed in, <b>About › Delete my account</b> (at the end of the screen) permanently deletes your account, favourites, calibrations and messages;
   if you cannot use the app, email us with the subject "account deletion" and it will be deleted within 30 days.</p>
 <h2>Stored on your device</h2>
-<p>Your settings (calibrations, favourite tools, language, the counter value, material calculator values), measurements you save (including location), the history of scanned QR codes and saved colors are kept <b>only on your phone</b>; you can delete them in the app. If you sign in, only favourites and calibrations are also written to your account. Everything on the phone is removed when you uninstall the app.</p>
+<p>Your settings (calibrations, favourite tools, language, start screen, the counter value, material calculator values), your approximate location and the last forecast, measurements you save (including location), the history of scanned QR codes and saved colors are kept <b>only on your phone</b>; you can delete them in the app. If you sign in, only favourites and calibrations are also written to your account. Everything on the phone is removed when you uninstall the app.</p>
 <h2>Crash reports</h2>
 <p>If the app closes unexpectedly, an anonymous crash report is sent: the technical error log, phone model, operating system and app version, and a random installation ID. It does not contain your name, email, location, measurements or messages and is used only to fix errors. Reports are deleted after 90 days.</p>
 <h2>Service providers</h2>
-<p>Sign-in, favourites and calibrations, messages, anonymous usage counts and crash reports are stored with <b>Google's cloud services</b>; account data is stored on servers in the European Union. Data is encrypted in transit. Google sign-in and Google Play are subject to Google's own privacy policy.</p>
+<p>Sign-in, favourites and calibrations, messages, anonymous usage counts and crash reports are stored with <b>Google's cloud services</b>; account data is stored on servers in the European Union. Data is encrypted in transit. Google sign-in and Google Play are subject to Google's own privacy policy. For the forecast, your approximate location (about 1 km) is sent to the open weather service of the <b>Norwegian Meteorological Institute</b> (Norway, European Economic Area); the request contains no name, account or device ID. The institute's own privacy terms apply. For the home screen widget, the place name is looked up with your phone's location service (Google on Android). Ad-free purchases are verified with the store's own check (Google Play / App Store) on our cloud service provider's servers; data is encrypted in transit. Google ads are shown by Google; Google's advertising and privacy policies apply.</p>
 <h2>Children</h2>
 <p>The app is not directed at children under 13.</p>
 <h2>Contact</h2>
